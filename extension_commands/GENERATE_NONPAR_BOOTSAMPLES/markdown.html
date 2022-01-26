@@ -1,0 +1,38 @@
+<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">.lst-kix_d24b3zvkc310-7>li:before{content:"-  "}.lst-kix_d24b3zvkc310-6>li:before{content:"-  "}.lst-kix_d24b3zvkc310-3>li:before{content:"-  "}.lst-kix_d24b3zvkc310-5>li:before{content:"-  "}li.li-bullet-0:before{margin-left:-18pt;white-space:nowrap;display:inline-block;min-width:18pt}.lst-kix_d24b3zvkc310-4>li:before{content:"-  "}ul.lst-kix_d24b3zvkc310-1{list-style-type:none}ul.lst-kix_d24b3zvkc310-0{list-style-type:none}.lst-kix_d24b3zvkc310-1>li:before{content:"-  "}.lst-kix_d24b3zvkc310-2>li:before{content:"-  "}ul.lst-kix_d24b3zvkc310-7{list-style-type:none}ul.lst-kix_d24b3zvkc310-6{list-style-type:none}ul.lst-kix_d24b3zvkc310-8{list-style-type:none}ul.lst-kix_d24b3zvkc310-3{list-style-type:none}ul.lst-kix_d24b3zvkc310-2{list-style-type:none}ul.lst-kix_d24b3zvkc310-5{list-style-type:none}.lst-kix_d24b3zvkc310-0>li:before{content:"-  "}ul.lst-kix_d24b3zvkc310-4{list-style-type:none}.lst-kix_d24b3zvkc310-8>li:before{content:"-  "}ol{margin:0;padding:0}table td,table th{padding:0}.c2{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c1{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c8{font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c10{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline}.c4{padding:0;margin:0}.c9{max-width:468pt;padding:72pt 72pt 72pt 72pt}.c3{margin-left:36pt;padding-left:0pt}.c12{color:inherit;text-decoration:inherit}.c6{font-weight:700}.c11{font-style:italic}.c5{height:11pt}.c7{background-color:#ffffff}.c0{color:#161616}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body>
+  
+<h1>GENERATE NONPAR BOOTSAMPLES</h1>
+
+<p class="c1 c5"><span class="c2"></span></p><p class="c1"><span class="c2">GENERATE NONPAR BOOTSAMPLES B = <i>value</i></span></p>
+<p class="c1"><span class="c2">&nbsp;&nbsp;/OPTIONS OUTFILE = &ldquo;<i>filepath</i>&rdquo;</span></p>
+<p class="c1"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SEED = <i>value</i>]</span></p>
+
+<h2>Description</h2>
+
+<p class="c1 c5"><span class="c2"></span></p><p class="c1"><span class="c2">GENERATE NONPAR BOOTSAMPLES generates a number of nonparametric bootstrapping samples for the active dataset. It is useful when users want to generate a set of nonparametric bootstrapping samples for further analysis (e.g., regression, reliability, correlation, etc.).</span></p>
+
+<p class="c1 c5"><span class="c2"></span></p><p class="c1"><span class="c6">*B: </span><span class="c2">This argument specifies the number of the bootstrap samples that the user wants to have. This is a required argument with no default.</span></p><p class="c1 c5"><span class="c2"></span></p>
+<p class="c1"><span>*</span><span class="c6">OUTFILE:</span><span class="c2">&nbsp;This argument specifies the file name for the generated bootstrap samples. All samples will be stored in one single data file. It is suggested to use a full path for clarity. (e.g., &quot;H:/temp/2iv_regression_bootsamples.sav&quot;). This is a required argument with no default. </span></p><p class="c1 c5"><span class="c2"></span></p>
+<p class="c1"><span class="c6">*SEED: </span><span>This optional argument specifies</span><span class="c6">&nbsp;</span><span class="c2">an integer to be used as the seed for the random number generator. It can ensure that the result is reproducible. </span></p>
+
+<p class="c1 c5"><span class="c2"></span></p><p class="c1"><span class="c2">The output data file will B x N cases, N being the number of cases in the dataset that is the active one when this command is run. The dataset will have B subsamples, identified by a variable b_i. A case id, boot_case_id, will be automatically generated. Each subsample will have N cases. All variables will be retained in the output data file.</span></p>
+
+<h2>Example</h2>
+
+<p class="c1 c5"><span class="c2"></span></p><p class="c1"><span class="c2">GENERATE NONPAR BOOTSAMPLES B = 5000</span></p><p class="c1"><span class="c2">&nbsp;&nbsp;/OPTIONS OUTFILE = &ldquo;H:/temp/2iv_regression_bootsamples.sav&rdquo;</span></p><p class="c1"><span class="c2"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEED = 12345.</span></p>
+
+<p class="c1 c5"><span class="c2"></span></p><p class="c1"><span class="c2">
+  This example will create a new data file, "2iv_regression_bootsamples.sav", in the folder "H:/temp/". This file will have 5000 nonparametric bootstrap samples from the active dataset. The random seed is 12345. Every time this command is run on the same  dataset, the same 5000 bootstrap samples will be drawn.
+</span></p>
+
+<h2>Custom Dialog</h2>
+
+A custom dialog will also be installed along with this extension command. It can be launched by <em>Generate Bootstrap Samples</em>, under the <em>Data</em> main menu.. A video demonstration is available at <a href="https://osf.io/3bdmj/">https://osf.io/3bdmj/</a>
+
+<h2>Authors</h2>
+<p class="c1">Shu Fai CHEUNG (<a href="https://orcid.org/0000-0002-9871-9448">https://orcid.org/0000-0002-9871-9448</a>)</p>
+
+<h2>Source</h2>
+<p class="c1">Source at <a href="https://github.com/sfcheung/diybootstat">https://github.com/sfcheung/diybootstat</a>.</p>
+
+<h2>License</h2>
+<p class="c1">GPL2.0</p>
