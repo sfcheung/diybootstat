@@ -1,0 +1,10 @@
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension.xsd" Name="GENERATE NONPAR BOOTSAMPLES" Language="Python"  LanguageVersion="3">
+  <Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+    <Parameter Name="B" ParameterType="Integer"/>
+  </Subcommand>
+  <Subcommand Name="OPTIONS" Occurrence="Optional">
+    <Parameter Name="OUTFILE" ParameterType="OutputFile"/>
+    <Parameter Name="SEED" ParameterType="Integer"/>
+  </Subcommand>
+  <Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
