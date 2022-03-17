@@ -5,7 +5,7 @@ following manuscript:
 
 Cheung, S. F., Pesigan, I. J. A., & Vong, W. N. (2022). DIY bootstrapping: Getting the nonparametric bootstrap confidence interval in SPSS for any statistics or function of statistics (when this bootstrapping is appropriate). *Behavior Research Methods*. [https://doi.org/10.3758/s13428-022-01808-5](https://doi.org/10.3758/s13428-022-01808-5)
 
-Currently, only one command is available, `GENERATE NONPAR BOOTSAMPLES`, described below, for generating bootstrapping samples.
+Currently, only one command is available, [`GENERATE NONPAR BOOTSAMPLES`](https://github.com/sfcheung/diybootstat/#generate-nonpar-bootsamples), described below, for generating bootstrapping samples.
 
 Our goal is not to develop a general tool for any particular statistics. Instead,
 we want to demonstrate that, with the help of `OMS` commands, nonparametric bootstrapping
