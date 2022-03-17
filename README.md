@@ -18,10 +18,10 @@ the manuscript.
 
 ## GENERATE NONPAR BOOTSAMPLES
 
-The source can be found in the folder `GENERATE_NONPAR_BOOTSAMPLES` in
-`extension_commands`.
+The source can be found in the folder [`GENERATE_NONPAR_BOOTSAMPLES`](https://github.com/sfcheung/diybootstat/tree/main/extension_commands/GENERATE_NONPAR_BOOTSAMPLES) in
+[`extension_commands`](https://github.com/sfcheung/diybootstat/tree/main/extension_commands).
 
-The bundle ready for installation can be found in the folder `extension_bundles`.
+The bundle ready for installation can be found in the folder [`extension_bundles`](https://github.com/sfcheung/diybootstat/tree/main/extension_bundles).
 
 An example on using this command can be found at the OSF page: https://osf.io/95rhx/
 
@@ -31,9 +31,9 @@ We can no longer access SPSS 26 and so cannot build and test the bundle for SPSS
 A version that we developed and tested in SPSS 26 can be found in the OSF page. Please
 refer to https://osf.io/8wevk/.
 
-The `examples` folder contains sample syntax files and data files presented in
+The [`examples`](https://github.com/sfcheung/diybootstat/tree/main/examples) folder contains sample syntax files and data files presented in
 the manuscript.
 
-The `macros` folder contains sample macro commands used to illustrate how researchers
+The [`macros`](https://github.com/sfcheung/diybootstat/tree/main/macros) folder contains sample macro commands used to illustrate how researchers
 can write their own macros for statistics for which they want to form the nonparametric
 bootstrap percentile confidence intervals.
