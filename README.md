@@ -3,10 +3,7 @@
 Extension commands and examples for DIY bootstrapping in SPSS presented in the
 following manuscript: 
 
-Cheung, S. F., Pesigan, I. J. A., & Vong, W. N. (2022) DIY bootstrapping: getting
-the nonparametric bootstrap confidence interval in SPSS for any statistics or
-function of statistics (when this bootstrapping is appropriate). Accepted
-for publication in *Behavior Research Methods*.
+Cheung, S. F., Pesigan, I. J. A., & Vong, W. N. (2022). DIY bootstrapping: Getting the nonparametric bootstrap confidence interval in SPSS for any statistics or function of statistics (when this bootstrapping is appropriate). *Behavior Research Methods*. [https://doi.org/10.3758/s13428-022-01808-5](https://doi.org/10.3758/s13428-022-01808-5)
 
 Currently, only one command is available, `GENERATE NONPAR BOOTSAMPLES`.
 
